@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 2eaf8130a52a1864dbca39b7e03f842a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: IBM Plex Mono
+  fontNames:
+  - IBM Plex Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 25d7d0d234b8432469b3b6c115d882d4, type: 3}
+  - {fileID: 12800000, guid: 03b47b49f7be3c04ab22d33d280fba85, type: 3}
+  - {fileID: 12800000, guid: 0467555e2dfb0344ba84f72aab5d39a4, type: 3}
+  - {fileID: 12800000, guid: 01d0f09ed43b61040b40474d65b3c8ad, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

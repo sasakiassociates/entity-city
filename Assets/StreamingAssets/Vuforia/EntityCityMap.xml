@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Tile_K-11_L-12" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_K-9_L-10" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_K-7_L-8" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_I-11_J-12" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_I-9_J-10" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_I-7_J-8" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_G-11_H-12" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_G-9_H-10" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_G-7_H-8" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_E-9_F-10_PNG" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_E-11_F-12" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_E-9_F-10" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_E-7_F-8" size="0.500000 0.500000"/>
+        <ImageTarget name="Tile_bottomLeftTEst" size="0.500000 0.500000"/>
+        <ImageTarget name="E-16_G-17" size="0.750000 0.499882"/>
+        <ImageTarget name="3x3_Tile_I-7_N-15.Top" size="0.750000 0.750000"/>
+        <ImageTarget name="3x3_Tile_I-7_N-15.Bottom" size="0.750000 0.750000"/>
+        <ImageTarget name="3x3_Tile_I-7_N-15.Right" size="0.750000 0.750000"/>
+        <ImageTarget name="3x3_Tile_I-7_N-15.Front" size="0.750000 0.750000"/>
+        <ImageTarget name="3x3_Tile_I-7_N-15.Back" size="0.750000 0.750000"/>
+        <ImageTarget name="3x3_Tile_I-7_N-15.Left" size="0.750000 0.750000"/>
+        <ImageTarget name="2x2_Tile_I-7_L-12.Top" size="0.500000 0.500000"/>
+        <ImageTarget name="2x2_Tile_I-7_L-12.Bottom" size="0.500000 0.500000"/>
+        <ImageTarget name="2x2_Tile_I-7_L-12.Right" size="0.500000 0.500000"/>
+        <ImageTarget name="2x2_Tile_I-7_L-12.Front" size="0.500000 0.500000"/>
+        <ImageTarget name="2x2_Tile_I-7_L-12.Back" size="0.500000 0.500000"/>
+        <ImageTarget name="2x2_Tile_I-7_L-12.Left" size="0.500000 0.500000"/>
+        <ImageTarget name="E-16_G16_MultiImage.Top" size="0.250000 0.250000"/>
+        <ImageTarget name="E-16_G16_MultiImage.Bottom" size="0.250000 0.250000"/>
+        <ImageTarget name="E-16_G16_MultiImage.Right" size="0.250000 0.250000"/>
+        <ImageTarget name="E-16_G16_MultiImage.Front" size="0.250000 0.250000"/>
+        <ImageTarget name="E-16_G16_MultiImage.Back" size="0.250000 0.250000"/>
+        <ImageTarget name="E-16_G16_MultiImage.Left" size="0.250000 0.250000"/>
+        <MultiTarget name="ScaleModel">
+            <Part name="Tile_E-11_F-12" translation="-.75 -.5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_E-9_F-10" translation="-.75 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_E-7_F-8" translation="-.75 .5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_G-11_H-12" translation="-.25 -.5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_G-9_H-10" translation="-.25 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_G-7_H-8" translation="-.25 .5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_K-11_L-12" translation=".75 -.5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_K-9_L-10" translation=".75 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_K-7_L-8" translation=".75 .5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_I-11_J-12" translation=".25 -.5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_I-9_J-10" translation=".25 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="Tile_I-7_J-8" translation=".25 .5 0" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+
+        <MultiTarget name="All">
+            <Part name="3x3_Tile_I-7_N-15.Left" translation="0 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="3x3_Tile_I-7_N-15.Right" translation="0 .75 0" rotation="AD: 1 0 0 0"/>
+            <Part name="3x3_Tile_I-7_N-15.Front" translation="-.75 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="3x3_Tile_I-7_N-15.Back" translation="0 1.50 0" rotation="AD: 1 0 0 0"/>
+            <Part name="3x3_Tile_I-7_N-15.Top" translation="-.75 1.50 0" rotation="AD: 1 0 0 0"/>
+            <Part name="3x3_Tile_I-7_N-15.Bottom" translation="-.75 .75 0" rotation="AD: 1 0 0 0"/>
+            <Part name="2x2_Tile_I-7_L-12.Left" translation="-.5 0.5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="2x2_Tile_I-7_L-12.Right" translation="0 .5 0" rotation="AD: 1 0 0 0"/>
+            <Part name="2x2_Tile_I-7_L-12.Front" translation="-.5 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="2x2_Tile_I-7_L-12.Back" translation="0 1 0" rotation="AD: 1 0 0 0"/>
+            <Part name="2x2_Tile_I-7_L-12.Top" translation="-.5 1 0" rotation="AD: 1 0 0 0"/>
+            <Part name="2x2_Tile_I-7_L-12.Bottom" translation="0 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="E-16_G16_MultiImage.Front" translation="-0.25 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="E-16_G16_MultiImage.Right" translation="0 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="E-16_G16_MultiImage.Top" translation="0.25 0 0" rotation="AD: 1 0 0 0"/>
+            <Part name="E-16_G16_MultiImage.Back" translation="-0.25 -0.25 0" rotation="AD: 1 0 0 0"/>
+            <Part name="E-16_G16_MultiImage.Left" translation="0 -0.25 0" rotation="AD: 1 0 0 0"/>
+            <Part name="E-16_G16_MultiImage.Bottom" translation="0.25 -0.25 0" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
