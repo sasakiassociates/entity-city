@@ -1,6 +1,6 @@
 # **Entity City**
 
-A protoype Unity app that renders LIDAR data tiles with Unity ECS/DOTS and visualized using Vuforia Image Tracking. 
+A protoype that explores augmenting data onto physical images by rendering LIDAR tiles with Unity ECS/DOTS and visualized using Vuforia Image Tracking. 
 
 <br />
 
@@ -10,22 +10,35 @@ A protoype Unity app that renders LIDAR data tiles with Unity ECS/DOTS and visua
 
 <br />
 
-### **What's happening**
-- This prototype is built with Vuforia image tracking
-- Image Tracking library was created in MapBox 
+### **about**
+ Understanding the scale behind a 2D drawing is a common issue most people have when they look at a map. Typically a map gives a viewer a _top-down_ perspective to a space, which shows all the 3D stuff of a space to a limited 2D display. This probably helps with reading through these drawings quickly or with seeing a space holistically, but it's likely also the cause for the struggle with seeing things three-dimensionally. 
+  <br />
+
+  The approach to this project was to help people through that visual struggle by **augmenting spatial heightmap data** onto it's related **city map**. To keep the simplicity of a map, the heightmap data that was sourced through LIDAR tiles was visualized to look similarly to a _pin toy_.  
+   
+<br />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/haitheredavid/content/main/EntityCity/PinToySearch.png" alt="PinToySearch"/>
+</p>
+
+<br />
+
+### **details**  
+- AR functioanlity is built out with Vuforia image tracking
+- Map tiles Image Tracking library was created in MapBox 
 - LIDAR tile set data sourced by (?)
 - Developed in Unity with ECS / DOTS
-- Check out tile as a way to check and process data\
 
 
 ### **Collaboration**  
-This prototype was apart of larger social project by MakeTank called [City Print](http://maketank-bsa.com/city-print), which was focused rebuilding the standard .3dm file of Boston by [crowd sourced support](http://maps.sasaki.com/tools/maketank/). 
+This prototype was apart of larger social project by MakeTank called [City Print](cityprint), which was focused rebuilding the standard .3dm file of Boston by [crowd sourced support](tilecheckout). 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30870056/148076647-749dd2ed-2101-4407-b77e-972fb93c6993.gif" alt="entityCity-maptiles"/>
 </p>
 
-<!-- Notes:  
-- Acknowledge the social element of this installation, and don't be too snarky
-- Breakdown of tile based system
-- Breakdown of user experience -->
+
+[cityprint]: http://maketank-bsa.com/city-print
+[tilecheckout]: http://maps.sasaki.com/tools/maketank/ 
+[fluffysketch]: http://misc-tools.s3-website-us-east-1.amazonaws.com/fluffy_city/
