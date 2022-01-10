@@ -30,7 +30,7 @@ The approach to this project was to help people through that visual struggle by 
 - Currently this project is built with Vuforia and targets ARCore as it's main AR library
 - The images used to anchor the LIDAR tiles was created and styled with MapBox
 - Developed in Unity with ECS / DOTS
-- LIDAR tile set data sourced by (?)
+- LIDAR tile set [data sourced](https://www.fisheries.noaa.gov/inport/item/49846)  
 
 <br />
 
