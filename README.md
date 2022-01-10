@@ -1,6 +1,6 @@
 # **Entity City**
 
-A protoype that explores augmenting data onto physical images by rendering LIDAR tiles with Unity ECS/DOTS and visualized using Vuforia Image Tracking.
+A prototype that explores augmenting data onto physical images by rendering LIDAR tiles with Unity ECS/DOTS and visualized using Vuforia Image Tracking.
 
 <br />
 
